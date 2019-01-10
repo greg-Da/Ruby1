@@ -6,7 +6,7 @@ def game
   stair = 0
   y = 0
     while stair != 10
-        mouv = rand(5) + 1
+        mouv = rand(6) + 1
         puts "#{mouv}"
         y += 1
         if stair == 0 && mouv == 1
@@ -48,3 +48,4 @@ def perform
     puts "Il faut en moyenne #{a} tours"
 end
 perform
+
